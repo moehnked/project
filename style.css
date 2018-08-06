@@ -14,6 +14,10 @@
 	overflow:auto;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: black;
+}
+div {
+	color: white;
 }
 
 .normal {
