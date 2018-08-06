@@ -1,0 +1,70 @@
+#videoBG {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+	z-index: -1;
+}
+
+#scrollbox {
+	width: 450px;
+	height: 350px;
+	border: 1px solid;
+	overflow:auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.normal {
+	text-align: center;
+}
+.ambedo {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+.container{
+	position: absolute;
+	left: 50%;
+	margin-left:-200px;
+}
+.header {
+	position: relative;
+	text-align: center;
+}
+
+#slider {
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	position: center;
+}
+#slider .slides {
+	display: blocks;
+	width: 6000px;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+}
+
+#slider .slide {
+	float: left;
+	list-style-type: none;
+	width: 400px;
+	height: 400px;
+}
+.imgs{
+	width: 400px;
+	height: 400px;
+}
+img {
+	
+	width: 5%;
+	height: 5%;
+}
